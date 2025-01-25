@@ -19,7 +19,7 @@ export function AboutPage() {
                 <div className= 'flex flex-col space-y-10'>
                         
                         <div>
-                        <h1 className= 'font-sans text-2xl'>My name is Luke Tu, and I'm a student at Brown University studying Computer Science and Applied Mathematics. I hope you have a great day👍
+                        <h1 className= 'font-sans text-2xl'>My name is Luke Tu, and I'm a student at Brown University studying Computer Science. I hope you have a great day👍
                         {/* <span className= 'text-2xl font-chivo font-black'> Computer Science and Visual Arts @ Brown University</span>.  */}
                         </h1>
                         
@@ -76,23 +76,29 @@ export function AboutPage() {
                 </div>
                 <div className='font-sans mb-10 flex flex-col space-y-10 items-center md:items-start md:flex-row md:space-x-10 md:space-y-0 md:justify-between'>
                     <div className='flex flex-col space-y-4 leading-6 text-[16px]'>
-                        <div>
+                        {/* <div>
                             <h1 className='font-chivo font-bold text-base'>CURRENT COURSEWORK</h1>
-                            <p classname='text-2xl'>CSCI 0320: Software Engineering</p>
-                            <p classname='text-2xl'>APMA 0350: Differential Equations</p>
-                            <p classname='text-2xl'>MATH 0180: Multivariable Calculus</p>
-                            <p classname='text-2xl'>ECON 1110: Microeconomics</p>
+                            
 
-                        </div>
+                        </div> */}
                         <div>
-                            <h1 className='font-chivo font-bold font text-base'>PAST COURSEWORK</h1>
+                            <h1 className='font-chivo font-bold font text-base'> SOME OF MY COURSEWORK:</h1>
+                            <p classname='text-2xl'>CSCI 1420: Machine Learning</p>
+                            <p classname='text-2xl'>CSCI 1951A: Data Science</p>
+                            <p classname='text-2xl'>CSCI 0300: Computer Systems</p>
+                            <p classname='text-2xl'>CSCI 0320: Software Engineering</p>
                             <p classname='text-2xl'>CSCI 0200: Data Structures and Algorithms</p>
                             <p classname='text-2xl'>CSCI 0150: Object Oriented Programming</p>
+                            <p classname='text-2xl'>ECON 1710: Investments</p>
+                            <p classname='text-2xl'>ECON 1210: Macroeconomics</p>
+                            <p classname='text-2xl'>ECON 1110: Microeconomics</p>
+                            <p classname='text-2xl'>ECON 0110: Principles of Economics</p>
+                            <p classname='text-2xl'>MATH 0180: Multivariable Calculus</p>
                             <p classname='text-2xl'>MATH 0540: Honors Linear Algebra</p>
                             <p classname='text-2xl'>ENGN 0032: Engineering Design</p>                                
                             <p classname='text-2xl'>APMA 1650: Statistical Inference</p>
+                            <p classname='text-2xl'>APMA 0350: Differential Equations</p>
                             <p classname='text-2xl'>CHEM 0330: General Chemistry</p>
-                            <p classname='text-2xl'>ECON 0110: Principles of Economics</p>
                             <p classname='text-2xl'>LITR 0710: Writers on Writing Seminar</p>
                             <p classname='text-2xl'>CHIN 450: Heritage Chinese Second Semester</p>
                             <p classname='text-2xl'>CHIN 350: Heritage Chinese First Semester</p>
@@ -119,7 +125,7 @@ export function AboutPage() {
                             </div>
                             <div>
                                 <h1 className= 'font-chivo text-base'>HOBBIES</h1>
-                                <h1 classname= 'text-2xl'>Sports, Cooking, Art, Traveling, Working Out</h1>
+                                <h1 classname= 'text-2xl'>Playing Pickup Sports, Cooking Good Food, Art Museums, Traveling, Working Out, Spending Time With Family and Friends</h1>
                             </div>
                         </div>
                         <div className= 'font-sans text-xl space-y-3'>

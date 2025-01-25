@@ -18,6 +18,8 @@ const HeaderAnimation = () => {
                   2500,
                   "i like meeting new people",
                   2500,
+                  "i like meeting new people",
+                  2500,
                   "i love building cool stuff",
                   2500,
                   "i'm a big lebron fan",
